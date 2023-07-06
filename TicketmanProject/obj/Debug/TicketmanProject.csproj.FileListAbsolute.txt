@@ -19,3 +19,4 @@ C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\Ticketma
 C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\TicketmanProject.csproj.CoreCompileInputs.cache
 C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\TicketmanProject.exe
 C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\TicketmanProject.pdb
+C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\TicketmanProject.AltKirilim.AltTeslimatProblemleri.resources

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltKirilim\AltTeslimatProblemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltKirilim\AltTeslimatProblemleri.Designer.cs">
+      <DependentUpon>AltTeslimatProblemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="GirisForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="SorunlarAnaForm.Designer.cs">
       <DependentUpon>SorunlarAnaForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AltKirilim\AltTeslimatProblemleri.resx">
+      <DependentUpon>AltTeslimatProblemleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GirisForm.resx">
       <DependentUpon>GirisForm.cs</DependentUpon>
     </EmbeddedResource>
