@@ -31,6 +31,7 @@
             this.teslimatProblemleriBtn = new System.Windows.Forms.Button();
             this.KargoDigerBtn = new System.Windows.Forms.Button();
             this.KuryeProblemleriBtn = new System.Windows.Forms.Button();
+            this.IcKargoPanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // teslimatProblemleriBtn
@@ -41,6 +42,7 @@
             this.teslimatProblemleriBtn.TabIndex = 0;
             this.teslimatProblemleriBtn.Text = "Teslimat Problemleri";
             this.teslimatProblemleriBtn.UseVisualStyleBackColor = true;
+            this.teslimatProblemleriBtn.Click += new System.EventHandler(this.teslimatProblemleriBtn_Click);
             // 
             // KargoDigerBtn
             // 
@@ -60,11 +62,19 @@
             this.KuryeProblemleriBtn.Text = "Kurye Problemleri";
             this.KuryeProblemleriBtn.UseVisualStyleBackColor = true;
             // 
+            // IcKargoPanel
+            // 
+            this.IcKargoPanel.Location = new System.Drawing.Point(291, 12);
+            this.IcKargoPanel.Name = "IcKargoPanel";
+            this.IcKargoPanel.Size = new System.Drawing.Size(497, 286);
+            this.IcKargoPanel.TabIndex = 3;
+            // 
             // IcKargoProblemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.IcKargoPanel);
             this.Controls.Add(this.KuryeProblemleriBtn);
             this.Controls.Add(this.KargoDigerBtn);
             this.Controls.Add(this.teslimatProblemleriBtn);
@@ -79,5 +89,6 @@
         private System.Windows.Forms.Button teslimatProblemleriBtn;
         private System.Windows.Forms.Button KargoDigerBtn;
         private System.Windows.Forms.Button KuryeProblemleriBtn;
+        private System.Windows.Forms.Panel IcKargoPanel;
     }
 }
