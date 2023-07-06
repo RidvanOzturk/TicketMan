@@ -29,7 +29,7 @@ namespace TicketmanProject
             }
             else { 
             anaForm.Show();
-            this.Hide();
+            this.Hide();//lskdfjlksdf
             }
         }
     }
