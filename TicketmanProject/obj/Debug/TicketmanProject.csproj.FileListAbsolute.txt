@@ -41,3 +41,4 @@ C:\Users\Yunus\Desktop\TicketMan\TicketMan\TicketmanProject\obj\Debug\TicketmanP
 C:\Users\Yunus\Desktop\TicketMan\TicketMan\TicketmanProject\obj\Debug\TicketmanProject.csproj.CoreCompileInputs.cache
 C:\Users\Yunus\Desktop\TicketMan\TicketMan\TicketmanProject\obj\Debug\TicketmanProject.exe
 C:\Users\Yunus\Desktop\TicketMan\TicketMan\TicketmanProject\obj\Debug\TicketmanProject.pdb
+C:\Users\oztur\source\repos\TicketmanProject\TicketmanProject\obj\Debug\TicketmanProject.AltKirilim.AltKuryeProblemleri.resources

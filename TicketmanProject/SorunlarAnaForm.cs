@@ -48,6 +48,7 @@ namespace TicketmanProject
         }
         private void secimleriTemizleBtn_Click(object sender, EventArgs e)
         {
+            //clear
             panel2.Controls.Clear();
             IadeDegisimProblemleriBtn.Enabled = true;
             LojistikDepoProblemleriBtn.Enabled = true;
