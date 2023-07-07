@@ -1,4 +1,5 @@
-﻿namespace TicketmanProject.AltKirilim
+﻿
+namespace TicketmanProject.AltKirilim
 {
     partial class AltKuryeProblemleri
     {
@@ -29,7 +30,7 @@
         private void InitializeComponent()
         {
             this.AltKuryeKuryeBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AltKuryeSubeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AltKuryeKuryeBtn
@@ -41,21 +42,21 @@
             this.AltKuryeKuryeBtn.Text = "Kurye davranış problemi";
             this.AltKuryeKuryeBtn.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // AltKuryeSubeBtn
             // 
-            this.button1.Location = new System.Drawing.Point(352, 185);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 50);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Şube tarafından dağıtıma çıkarılmaması";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AltKuryeSubeBtn.Location = new System.Drawing.Point(352, 185);
+            this.AltKuryeSubeBtn.Name = "AltKuryeSubeBtn";
+            this.AltKuryeSubeBtn.Size = new System.Drawing.Size(132, 50);
+            this.AltKuryeSubeBtn.TabIndex = 2;
+            this.AltKuryeSubeBtn.Text = "Şube tarafından dağıtıma çıkarılmaması";
+            this.AltKuryeSubeBtn.UseVisualStyleBackColor = true;
             // 
             // AltKuryeProblemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AltKuryeSubeBtn);
             this.Controls.Add(this.AltKuryeKuryeBtn);
             this.Name = "AltKuryeProblemleri";
             this.Text = "AltKuryeProblemleri";
@@ -66,6 +67,6 @@
         #endregion
 
         private System.Windows.Forms.Button AltKuryeKuryeBtn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AltKuryeSubeBtn;
     }
 }
