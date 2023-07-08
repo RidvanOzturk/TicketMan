@@ -21,5 +21,10 @@ namespace TicketmanProject.AltKirilim
         {
 
         }
+
+        private void AltDigerCagriBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,6 +50,7 @@ namespace TicketmanProject.AltKirilim
             this.AltDigerCagriBtn.TabIndex = 3;
             this.AltDigerCagriBtn.Text = "Çağrı merkezine ulaşılamaması";
             this.AltDigerCagriBtn.UseVisualStyleBackColor = true;
+            this.AltDigerCagriBtn.Click += new System.EventHandler(this.AltDigerCagriBtn_Click);
             // 
             // AltKargoDiger
             // 

@@ -46,17 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltKirilim\AltKargoDiger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltKirilim\AltKargoDiger.Designer.cs">
+      <DependentUpon>AltKargoDiger.cs</DependentUpon>
+    </Compile>
     <Compile Include="AltKirilim\AltKuryeProblemleri.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AltKirilim\AltKuryeProblemleri.Designer.cs">
       <DependentUpon>AltKuryeProblemleri.cs</DependentUpon>
     </Compile>
+    <Compile Include="AltKirilim\AltSiparisProblemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltKirilim\AltSiparisProblemleri.Designer.cs">
+      <DependentUpon>AltSiparisProblemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="AltKirilim\AltTeslimatProblemleri.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AltKirilim\AltTeslimatProblemleri.Designer.cs">
       <DependentUpon>AltTeslimatProblemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltKirilim\AltUrunProblemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltKirilim\AltUrunProblemleri.Designer.cs">
+      <DependentUpon>AltUrunProblemleri.cs</DependentUpon>
     </Compile>
     <Compile Include="GirisForm.cs">
       <SubType>Form</SubType>
@@ -126,11 +144,20 @@
     <Compile Include="SorunlarAnaForm.Designer.cs">
       <DependentUpon>SorunlarAnaForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AltKirilim\AltKargoDiger.resx">
+      <DependentUpon>AltKargoDiger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AltKirilim\AltKuryeProblemleri.resx">
       <DependentUpon>AltKuryeProblemleri.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AltKirilim\AltSiparisProblemleri.resx">
+      <DependentUpon>AltSiparisProblemleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AltKirilim\AltTeslimatProblemleri.resx">
       <DependentUpon>AltTeslimatProblemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltKirilim\AltUrunProblemleri.resx">
+      <DependentUpon>AltUrunProblemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GirisForm.resx">
       <DependentUpon>GirisForm.cs</DependentUpon>

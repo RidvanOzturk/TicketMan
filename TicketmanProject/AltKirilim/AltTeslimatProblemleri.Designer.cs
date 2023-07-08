@@ -31,7 +31,7 @@
             this.AltTeslimatSubeBtn = new System.Windows.Forms.Button();
             this.AltTeslimatAdresBtn = new System.Windows.Forms.Button();
             this.AltTeslimatKargoTakipBtn = new System.Windows.Forms.Button();
-            this.AltTeslimatDagıtım = new System.Windows.Forms.Button();
+            this.AltTeslimatDagıtımBtn = new System.Windows.Forms.Button();
             this.AltTeslimatAktarmaBtn = new System.Windows.Forms.Button();
             this.AltTeslimatHasarliBtn = new System.Windows.Forms.Button();
             this.AltTeslimatEksikBtn = new System.Windows.Forms.Button();
@@ -71,14 +71,14 @@
             this.AltTeslimatKargoTakipBtn.Text = "Kargo takip numarasının oluşmaması";
             this.AltTeslimatKargoTakipBtn.UseVisualStyleBackColor = true;
             // 
-            // AltTeslimatDagıtım
+            // AltTeslimatDagıtımBtn
             // 
-            this.AltTeslimatDagıtım.Location = new System.Drawing.Point(310, 236);
-            this.AltTeslimatDagıtım.Name = "AltTeslimatDagıtım";
-            this.AltTeslimatDagıtım.Size = new System.Drawing.Size(132, 50);
-            this.AltTeslimatDagıtım.TabIndex = 3;
-            this.AltTeslimatDagıtım.Text = "Dağıtıma çıkmadan iade faturasının kesilmesi";
-            this.AltTeslimatDagıtım.UseVisualStyleBackColor = true;
+            this.AltTeslimatDagıtımBtn.Location = new System.Drawing.Point(310, 236);
+            this.AltTeslimatDagıtımBtn.Name = "AltTeslimatDagıtımBtn";
+            this.AltTeslimatDagıtımBtn.Size = new System.Drawing.Size(132, 50);
+            this.AltTeslimatDagıtımBtn.TabIndex = 3;
+            this.AltTeslimatDagıtımBtn.Text = "Dağıtıma çıkmadan iade faturasının kesilmesi";
+            this.AltTeslimatDagıtımBtn.UseVisualStyleBackColor = true;
             // 
             // AltTeslimatAktarmaBtn
             // 
@@ -185,7 +185,7 @@
             this.Controls.Add(this.AltTeslimatEksikBtn);
             this.Controls.Add(this.AltTeslimatHasarliBtn);
             this.Controls.Add(this.AltTeslimatAktarmaBtn);
-            this.Controls.Add(this.AltTeslimatDagıtım);
+            this.Controls.Add(this.AltTeslimatDagıtımBtn);
             this.Controls.Add(this.AltTeslimatKargoTakipBtn);
             this.Controls.Add(this.AltTeslimatAdresBtn);
             this.Controls.Add(this.AltTeslimatSubeBtn);
@@ -200,7 +200,7 @@
         private System.Windows.Forms.Button AltTeslimatSubeBtn;
         private System.Windows.Forms.Button AltTeslimatAdresBtn;
         private System.Windows.Forms.Button AltTeslimatKargoTakipBtn;
-        private System.Windows.Forms.Button AltTeslimatDagıtım;
+        private System.Windows.Forms.Button AltTeslimatDagıtımBtn;
         private System.Windows.Forms.Button AltTeslimatAktarmaBtn;
         private System.Windows.Forms.Button AltTeslimatHasarliBtn;
         private System.Windows.Forms.Button AltTeslimatEksikBtn;

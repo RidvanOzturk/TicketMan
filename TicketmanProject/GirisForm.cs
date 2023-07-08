@@ -28,8 +28,8 @@ namespace TicketmanProject
                 MessageBox.Show("Lütfen Bilgileri Doğru Doldurunuz.","Hata!",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else { 
-            anaForm.Show();
-            this.Hide();//lskdfjlksdf
+            anaForm.Show();//yorummmm
+            this.Hide();//lskdfjşlkşskş
             }
         }
     }
