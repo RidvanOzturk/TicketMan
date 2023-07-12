@@ -17,19 +17,14 @@ namespace TicketmanProject
         {
             InitializeComponent();
         }
-        private void FormGetir(Form frm)
-        {
-            IcKargoPanel.Controls.Clear();
-            frm.MdiParent = this;
-            frm.FormBorderStyle = FormBorderStyle.None;
-            IcKargoPanel.Controls.Add(frm);
-            frm.Show();
-        }
-        private void teslimatProblemleriBtn_Click(object sender, EventArgs e)
-        {
-            AltTeslimatProblemleri altTeslimatProblemleri = new AltTeslimatProblemleri();
-            FormGetir(altTeslimatProblemleri);
+     
 
+        public void teslimatProblemleriBtn_Click(object sender, EventArgs e)
+        {
+          SorunlarAnaForm sorunlarAnaForm = new SorunlarAnaForm();
+          AltTeslimatProblemleri altTeslimatProblemleri = new AltTeslimatProblemleri();
+            sorunlarAnaForm.AltFormGetir(altTeslimatProblemleri);
+            altTeslimatProblemleri.Show();
         }
     }
 }

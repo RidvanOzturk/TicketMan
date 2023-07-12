@@ -46,6 +46,13 @@ namespace TicketmanProject
             panel2.Controls.Add(frm);
             frm.Show();
         }
+        public void AltFormGetir(Form form)
+        {
+            AltKirilimPanel.Controls.Clear();
+            form.MdiParent = this;
+            form.FormBorderStyle = FormBorderStyle.None;
+            AltKirilimPanel.Controls.Add(form);
+        }
         private void secimleriTemizleBtn_Click(object sender, EventArgs e)
         {
             //clear
