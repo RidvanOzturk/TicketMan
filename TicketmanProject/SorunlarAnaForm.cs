@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicketmanProject.AltKirilim;
 
 namespace TicketmanProject
 {
@@ -52,6 +53,8 @@ namespace TicketmanProject
             form.MdiParent = this;
             form.FormBorderStyle = FormBorderStyle.None;
             AltKirilimPanel.Controls.Add(form);
+            form.Show();
+            
         }
         private void secimleriTemizleBtn_Click(object sender, EventArgs e)
         {

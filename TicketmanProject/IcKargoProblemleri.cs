@@ -24,7 +24,6 @@ namespace TicketmanProject
           SorunlarAnaForm sorunlarAnaForm = new SorunlarAnaForm();
           AltTeslimatProblemleri altTeslimatProblemleri = new AltTeslimatProblemleri();
             sorunlarAnaForm.AltFormGetir(altTeslimatProblemleri);
-            altTeslimatProblemleri.Show();
         }
     }
 }

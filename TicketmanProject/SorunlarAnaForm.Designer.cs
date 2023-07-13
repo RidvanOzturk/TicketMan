@@ -39,9 +39,10 @@
             this.SiparisProblemleriBtn = new System.Windows.Forms.Button();
             this.LojistikDepoProblemleriBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.AltKirilimPanel = new System.Windows.Forms.Panel();
             this.adSoyadNoVeriLbl = new System.Windows.Forms.Label();
             this.secimleriTemizleBtn = new System.Windows.Forms.Button();
-            this.AltKirilimPanel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.KvkkBtn);
             this.panel1.Controls.Add(this.DigerProblemlerBtn);
             this.panel1.Controls.Add(this.WebSiteProblemleriBtn);
@@ -161,6 +163,14 @@
             this.panel2.Size = new System.Drawing.Size(921, 293);
             this.panel2.TabIndex = 7;
             // 
+            // AltKirilimPanel
+            // 
+            this.AltKirilimPanel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.AltKirilimPanel.Location = new System.Drawing.Point(312, 0);
+            this.AltKirilimPanel.Name = "AltKirilimPanel";
+            this.AltKirilimPanel.Size = new System.Drawing.Size(609, 293);
+            this.AltKirilimPanel.TabIndex = 0;
+            // 
             // adSoyadNoVeriLbl
             // 
             this.adSoyadNoVeriLbl.AutoSize = true;
@@ -180,13 +190,14 @@
             this.secimleriTemizleBtn.Visible = false;
             this.secimleriTemizleBtn.Click += new System.EventHandler(this.secimleriTemizleBtn_Click);
             // 
-            // AltKirilimPanel
+            // label1
             // 
-            this.AltKirilimPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.AltKirilimPanel.Location = new System.Drawing.Point(312, 0);
-            this.AltKirilimPanel.Name = "AltKirilimPanel";
-            this.AltKirilimPanel.Size = new System.Drawing.Size(609, 293);
-            this.AltKirilimPanel.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(257, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(352, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "ÜST BAŞLIKLAR TAB PAGE TEKNOLOJİ KULLANILARAK YAPILACAK";
             // 
             // SorunlarAnaForm
             // 
@@ -204,6 +215,7 @@
             this.Text = "SorunlarAnaForm";
             this.Load += new System.EventHandler(this.SorunlarAnaForm_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -226,5 +238,6 @@
         private System.Windows.Forms.Button KvkkBtn;
         private System.Windows.Forms.Button secimleriTemizleBtn;
         private System.Windows.Forms.Panel AltKirilimPanel;
+        private System.Windows.Forms.Label label1;
     }
 }
